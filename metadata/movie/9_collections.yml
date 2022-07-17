@@ -1,0 +1,48 @@
+templates:
+  MdbCollection:
+    sort_title: ~9_<<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+    mdblist_list: <<list>>
+    url_poster: <<poster>>
+
+collections:
+  Kristian's Favorites:
+    schedule: monthly(1)
+    letterboxd_list: https://letterboxd.com/kristian/list/kristians-favorites/
+    collection_order: custom
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync
+  Harry Potter Collection:
+    schedule: monthly(1)
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    template: 
+      name: MdbCollection 
+      list: https://mdblist.com/lists/fremulon-7/wizarding-world-of-harry-potter-collection/
+      poster: https://theposterdb.com/api/assets/166278
+    collection_order: release
+  Middle-Earth Collection:
+    schedule: monthly(1)
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    template: 
+      name: MdbCollection 
+      list: https://mdblist.com/lists/fremulon-7/the-middle-earth-collection/
+      poster: https://theposterdb.com/api/assets/25036
+    collection_order: release
+  Star Wars Collection:
+    schedule: monthly(1)
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    template: 
+      name: MdbCollection 
+      list: https://mdblist.com/lists/michael0deon/star-wars-movies
+      poster: https://theposterdb.com/api/assets/4448
+    collection_order: release
+

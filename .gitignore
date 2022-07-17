@@ -1,0 +1,8 @@
+UUID
+
+assets
+*.cache
+config.yml
+_debug.yml
+logs
+overlays

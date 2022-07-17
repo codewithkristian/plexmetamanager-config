@@ -1,0 +1,59 @@
+playlists:
+  Marvel Cinematic Universe:
+    url_poster: https://imgur.com/cx4CpKo
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    sync_to_users: all
+    collection_order: release
+    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
+    summary: Marvel Cinematic Universe In Chronological Order
+  Star Wars:
+    url_poster: https://imgur.com/3mjh2IC
+    sync_mode: sync
+    libraries: Movies
+    sync_to_users: all                     
+    collection_order: release
+    trakt_list: https://trakt.tv/users/ruben_vw_/lists/star-wars-canon-timeline?sort=rank,asc
+    summary: Timeline of all Star Wars movies. This includes all Saga Episodes (Ep. I-IX) and spin-off movies (Rogue One, Solo, etc.)
+  X-Men:
+    url_poster: https://imgur.com/SDliKrF
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    collection_order: release
+    trakt_list: https://trakt.tv/users/donxy/lists/x-men-universe?sort=rank,asc
+  James Bond:
+    url_poster: https://imgur.com/D32fFj3
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    collection_order: release
+    trakt_list: https://trakt.tv/users/any/lists/james-bond?sort=rank,asc    
+  Fast & Furious:
+    url_poster: https://imgur.com/xD4UaZr
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    collection_order: release
+    trakt_list: https://trakt.tv/users/mausk/lists/fast-furious?sort=rank,desc
+  Harry Potter:
+    url_poster: https://imgur.com/U9hMb2s
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    collection_order: release
+    trakt_list: https://trakt.tv/users/goldveia/lists/harry-potter?sort=rank,asc  
+  Lord of the Rings:
+    url_poster: https://imgur.com/kBTAKrD
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    collection_order: release
+    trakt_list: https://trakt.tv/users/spite84/lists/lord-of-the-rings?sort=rank,asc
+  Jurassic Park:
+    url_poster: https://imgur.com/OGGfRwb
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    collection_order: release
+    trakt_list: https://trakt.tv/users/iamgabriel/lists/jurassic?sort=rank,asc

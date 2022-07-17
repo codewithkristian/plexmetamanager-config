@@ -1,0 +1,39 @@
+# https://imgur.com/a/iQTtjbn
+
+overlays:
+  krimby-favs:
+    overlay:
+      name: krimby-favs
+      horizontal_align: right
+      horizontal_offset: 40
+      vertical_align: top
+      vertical_offset: 5
+    letterboxd_list: https://letterboxd.com/kristian/list/kristians-favorites/
+    collection_order: custom
+    sync_mode: sync
+  full:
+    overlay:
+      name: full
+    plex_all: true
+  lb_audience_rating:
+    overlay:
+      name: text(audience_rating%)
+      horizontal_offset: 20
+      vertical_offset: 1410
+      font_size: 80
+      font_color: #FFF
+      url: https://i.imgur.com/GPOdDDe.png
+      addon_position: left
+      addon_offset: 20
+    plex_all: true
+  rt_critic_rating:
+    overlay:
+      name: text(critic_rating%)
+      horizontal_offset: 665
+      vertical_offset: 1390
+      font_size: 80
+      font_color: #FFF
+      url: https://i.imgur.com/Cj9kDfH.png
+      addon_position: left
+      addon_offset: 20
+    plex_all: true
